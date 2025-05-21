@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eco SolarPro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 20px 40px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      flex-wrap: wrap;
+    }
+
+    header img {
+      max-height: 60px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f9823a;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin: 40px auto;
+      max-width: 1200px;
+      background-color: #f9823a;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    }
+
+    .hero-image {
+      flex: 1 1 50%;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .hero-content {
+      flex: 1 1 50%;
+      background-color: #f9823a;
+      color: white;
+      padding: 40px;
+    }
+
+    .hero-content h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .hero-content p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: white;
+      color: #b34c00;
+      font-weight: bold;
+      padding: 16px 30px;
+      font-size: 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #f0f0f0;
+    }
+
+    footer {
+      background-color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+      margin-top: auto;
+      box-shadow: 0 -1px 4px rgba(0,0,0,0.05);
+    }
+
+    footer a {
+      color: #f9823a;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+
+      .hero-content {
+        padding: 30px 20px;
+        text-align: center;
+      }
+
+      .hero-content h2 {
+        font-size: 28px;
+      }
+
+      .hero-content p {
+        font-size: 16px;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="https://i.ibb.co/dJDJVnK4/ESP-Orange.png" alt="Eco SolarPro Logo" />
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-image">
+      <img src="https://i.ibb.co/zp8BVPb/image.png" alt="Person holding key in front of home" />
+    </div>
+    <div class="hero-content">
+      <h2>Increase Your Home's Value</h2>
+      <p>Homes with solar panels tend to sell faster and at a premium because buyers value the long-term energy savings.</p>
+      <a href="https://clicktap.gotrackier.com/click?campaign_id=196&pub_id=82" class="cta-button" target="_blank">Apply Now »</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#about">About Us</a> | <a href="#contact">Contact Us</a>
+  </footer>
+
+</body>
+</html>
